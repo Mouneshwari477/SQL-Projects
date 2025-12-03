@@ -62,3 +62,97 @@ Detected car models with significant price fluctuations
 Analyzed selling price differences across fuel types and transmission types
 
 Found vehicles priced within 10% of market average
+
+## 🏥 2.Healthcare Data Analysis
+
+This project performs an in-depth analysis of a healthcare dataset using SQL.
+It explores patient demographics, hospitalization trends, billing patterns, medical conditions, insurance coverage, hospital performance, and more.
+The queries uncover insights that can support healthcare operations, patient management, and resource planning.
+
+### 📌 Project Overview
+
+Using a structured healthcare dataset, this project answers critical analytical questions such as:
+
+What is the average age of hospitalized patients?
+
+Which medical conditions have the highest number of patients?
+
+What are the most prescribed medications by condition?
+
+Which insurance providers and hospitals are most preferred?
+
+What is the average billing amount for each condition?
+
+How many days do patients typically spend in a hospital?
+
+Which patients are universal blood donors or recipients?
+
+How can we identify high-risk vs low-risk patients based on test results?
+
+All queries are written in SQL with a focus on analytics, aggregation, ranking, window functions, and real-world healthcare insights.
+
+### 🛠️ SQL Concepts Used
+
+This project demonstrates strong SQL skills including:
+
+Aggregations: COUNT(), AVG(), MAX(), MIN(), SUM()
+
+Grouping & Ordering: Demographic and medical-condition analysis
+
+Window Functions: DENSE_RANK(), RANK(), OVER()
+
+Date Functions: DATEDIFF(), calculating hospitalization days
+
+Subqueries
+
+Stored Procedures
+
+Filtering & pattern extraction
+
+CASE statements for risk classification
+
+### 🔍 Key Insights Generated
+
+Some insights obtained from the dataset include:
+
+### 👥 Patient Demographics
+
+Maximum and average patient age
+
+Age-wise distribution of hospitalized patients
+
+Ranking ages by number of admissions
+
+### 🩺 Medical Condition Insights
+
+Most common medical conditions among patients
+
+Most recommended medications per condition
+
+Risk classification based on test results (Normal / Abnormal / Inconclusive)
+
+### 🏥 Hospital & Insurance Analysis
+
+Hospital with the highest admissions
+
+Most preferred insurance provider
+
+Billing patterns per hospital and per condition
+
+Total admission counts for 2024 & 2025
+
+### 💉 Blood Type & Compatibility
+
+Counts of blood types between age 20–45
+
+Universal donor vs universal recipient counts
+
+Stored procedure to match O- donors with AB+ recipients
+
+### 📄 Financial Insights
+
+Average, minimum, and maximum billing amount per insurance provider
+
+Total billed amounts per hospital
+
+Billing amount vs hospitalized duration
