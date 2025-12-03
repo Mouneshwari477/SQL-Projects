@@ -1,6 +1,6 @@
 # SQL-Projects
 
-## 🚗 Automotive Industry Insights
+## 🚗 1.Automotive Industry Insights
 
 This project explores key trends and patterns in the automotive industry using SQL.
 The goal is to analyze vehicle sales, pricing behavior, mileage efficiency, ownership patterns, and performance over time using real-world automotive data.
